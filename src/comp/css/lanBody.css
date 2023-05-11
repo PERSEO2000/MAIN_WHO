@@ -1,0 +1,58 @@
+.lanbody {
+  position: absolute;
+  z-index: 1;
+  background: #400000;
+  color: indigo;
+  width: 80%;
+  top: 30%;
+  left: 10%;
+  right: 10%;
+  border-radius: 2%;
+  animation: play 2s linear 1;
+}
+@keyframes play {
+  0% {
+    color: transparent;
+  }
+  100% {
+    color: indigo;
+  }
+}
+
+.lanbody .data {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 10%;
+}
+.lanbody .data img {
+  margin: 4%;
+  width: 50%;
+  height: 50%;
+  filter: opacity(60%);
+  animation: play2 1s linear 1;
+
+}
+@keyframes play2 {
+  0% {
+    filter: opacity(0%);
+  }
+  100% {
+  }
+}
+
+.lanbody .data p {
+  font-size: 8px;
+}
+.lanbody .data button {
+  font-size: 20px;
+  position: absolute;
+  background: transparent;
+  border: none;
+  color: darkblue;
+  top: 1%;
+  right: 1%;
+}

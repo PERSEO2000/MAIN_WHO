@@ -1,0 +1,18 @@
+.lenguajes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: black;
+}
+.lenguajes .lenguaje {
+  color: brown;
+  text-align: center;
+  padding: 2% 0% 2% 0%;
+}
+
+.lenguajes .lenguaje img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10%;
+  filter: opacity(40%);
+}

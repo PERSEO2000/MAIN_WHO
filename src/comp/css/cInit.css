@@ -1,0 +1,133 @@
+.cinit {
+  position: relative;
+  width: 100vw;
+  margin-bottom: 20%;
+}
+.cinit_img {
+  width: 100%;
+  height: 200px;
+}
+.cinit_img img {
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  filter: opacity(20%);
+  animation: view 5s linear 1;
+}
+@keyframes view {
+  0% {filter: opacity(1%);}
+  50% {filter: opacity(10%);}
+  100% {filter: opacity(20%);}
+}
+.cinit_details {
+  position: absolute;
+  display: flex;
+  bottom: 40%;
+  width: 60%;
+  right: 1%;
+  gap: 5px;
+  padding: 0% 5% 0% 5%;
+}
+.cinit_details #h1 {
+  color: tomato;
+  filter: drop-shadow(0px 0px 10px white);
+  animation: wr 5s linear 1;
+}
+@keyframes wr {
+  0% {
+    color: transparent;
+  }
+  100% {
+    color: tomato;
+  }
+}
+.cinit_details #h2 {
+  color: darkblue;
+}
+.cinit_details #h3 {
+  color: red;
+}
+.cinit_menu *, .cinit_menu{
+  box-sizing: border-box;
+}
+.cinit_menu {
+  position: fixed;
+  filter: opacity(50%);
+  top: 0;
+  display: flex;
+  width: 100vw;
+  padding: 2% 2% 2% 2%;
+  justify-content: space-between;
+  animation: fa 1s linear 1;
+}
+@keyframes fa {
+  0% {
+    top: -20%;
+  }
+  100% {
+    top: 0;
+  }
+}
+.cinit_menu >div:nth-child(2) {
+  display: flex;
+  gap: 5px;
+}
+.cinit_menu > div:nth-child(1) button {
+  background: transparent;
+  color: white;
+  border: none;
+  border-top: 0.1px solid white;
+  border-bottom: 0.1px solid white;
+}
+.cinit_menu > div:nth-child(2) button:nth-child(1) {
+  background: transparent;
+  color: white;
+  border: none;
+  border-top: 0.1px solid white;
+  border-bottom: 0.1px solid white;
+
+}
+.cinit_menu > div:nth-child(2) button:nth-child(2) {
+  background: transparent;
+  color: white;
+  border: none;
+  border-top: 0.1px solid white;
+  border-bottom: 0.1px solid white;
+
+}
+.cinit_descripcion {
+  position: absolute;
+  bottom: 10%;
+  width: 60%;
+  right: 1%;
+  padding: 0% 5% 0% 5%;
+  border: none;
+  overflow: hidden;
+}
+
+.cinit_descripcion div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.cinit_descripcion p {
+  font-size: 5px;
+  color: darkgreen;
+  animation: max 5s linear 1;
+}
+@keyframes max {
+  0% {
+    font-size: 0px;
+  }
+  100% {
+    font-size: 5px;
+  }
+}
+
+
+
+
+
