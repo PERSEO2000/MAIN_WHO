@@ -1,4 +1,12 @@
 .git {
-  color: white;
   background: #400000;
+  color: white;
+}
+.git >div:nth-child(1) {
+  width: 200px;
+  height: 200px;
+}
+.git >div:nth-child(1) img {
+  width: 100%;
+  height: 100%;
 }
