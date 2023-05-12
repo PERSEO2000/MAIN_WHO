@@ -2,7 +2,7 @@
   background: #400000;
   color: white;
   padding: 2% 0% 2% 0%;
-  margin-bottom: 10%;
+  margin: 10% 2% 10% 2%;
 }
 .framehome >div:nth-child(1) {
   display: flex;
@@ -18,6 +18,7 @@
 .framehome >div:nth-child(1) div img {
   width: 100%;
   height: 100%;
+  filter: opacity(50%);
 }
 .framehome >div:nth-child(1) div:nth-child(2) img {
   filter: drop-shadow(0px 0px 1px white);
