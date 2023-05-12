@@ -1,7 +1,7 @@
 .framehome {
   background: #400000;
   margin: 10% 2% 10% 2%;
-  border-radius: 5%;
+  border-radius: 10px;
   padding: 2%;
 }
 .framehome >div:nth-child(1) {
