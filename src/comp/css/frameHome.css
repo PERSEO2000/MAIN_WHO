@@ -1,11 +1,11 @@
 .framehome {
   background: #400000;
   color: white;
-  padding: 2% 0% 2% 0%;
   margin: 10% 2% 10% 2%;
 }
 .framehome >div:nth-child(1) {
   display: flex;
+  padding: 2% 0% 4% 0%;
   flex-direction: row;
   justify-content: space-evenly;
   background: #400000;
