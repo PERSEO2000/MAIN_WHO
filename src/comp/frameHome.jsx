@@ -9,7 +9,7 @@ const FrameHome = () => {
         {
           franeHome.map((frame) => {
             return (
-              <div>
+              <div className="frame">
                 <div>
                   <img src={frame.img}/>
                 </div>
