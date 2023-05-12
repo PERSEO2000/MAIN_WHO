@@ -1,5 +1,6 @@
 import React from "react"
 import Cinit from "../comp/cInit"
+import FrameHome from "../comp/frameHome"
 import Git from "../comp/git"
 import LanBody from "../comp/lanBody"
 import Lprograming from "../comp/lPrograming"
@@ -10,6 +11,7 @@ const HomePage = () => {
       <LanBody/>
       <Lprograming/>
       <Git/>
+      <FrameHome/>
     </div>
   )
 }

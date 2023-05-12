@@ -2,9 +2,9 @@ import React from "react"
 import "./css/frameHome.css"
 import { franeHome } from "./DATA/lanHome.js"
 
-const FrameBody = () => {
+const FrameHome = () => {
   return (
-    <div className="framebody">
+    <div className="framehome">
       <div>
         {
           franeHome.map((frame) => {
@@ -20,4 +20,4 @@ const FrameBody = () => {
     </div>
   )
 }
-export default FrameBody
+export default FrameHome
