@@ -1,5 +1,5 @@
 .framehome {
-  background: brown;
+  background: #400000;
   color: white;
   padding: 2% 0% 2% 0%;
 }
@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  background: darkgreen;
+  background: #400000;
 }
 .framehome >div:nth-child(1) div {
   text-align: center;
