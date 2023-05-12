@@ -10,11 +10,15 @@ const Lprograming = () => {
         lanHome.map((lan) => {
           return (
             <div className="lenguaje">
+            <div className="">
               <img onClick={() => {
                 setLanguaje(lan.id)
                 setDisplay(true)
               }} src={lan.img}/>
+            </div>
+            <div>
               <h6>{lan.name}</h6>
+            </div>
             </div>
           )
         })

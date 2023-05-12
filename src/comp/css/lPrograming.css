@@ -7,14 +7,20 @@
   border-radius: 5%;
 }
 .lenguajes .lenguaje {
-  width: 80px;
-  height: 80px;
-  color: brown;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
   padding: 2% 0% 2% 0%;
 }
-
-.lenguajes .lenguaje img {
+.lenguajes .lenguaje >div:nth-child(1) {
+  width: 80px;
+  height: 80px;
+}
+.lenguajes .lenguaje >div:nth-child(2) {
+  color: brown;
+  text-align: center;
+  margin: 2%;
+}
+.lenguajes .lenguaje div img {
   width: 100%;
   height: 100%;
   border-radius: 10%;
