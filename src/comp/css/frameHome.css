@@ -1,4 +1,20 @@
 .framehome {
-  background: #400000;
+  background: brown;
   color: white;
+  padding: 5%;
+  margin: 10% 2% 60% 2%;
+}
+.framehome >div:nth-child(1) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background: darkgreen;
+}
+.framehome >div:nth-child(1) div {
+  width: 100px;
+  height: 100px;
+}
+.framehome >div:nth-child(1) div img {
+  width: 100%;
+  height: 100%;
 }
