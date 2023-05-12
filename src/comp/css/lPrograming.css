@@ -3,7 +3,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   background: #400000;
-  margin: 2%;
+  margin: 2% 2% 10% 2%;
   border-radius: 5%;
 }
 .lenguajes .lenguaje {
