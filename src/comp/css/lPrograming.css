@@ -1,8 +1,18 @@
+.lang {
+  text-align: center;
+}
+.lang h4:nth-child(1) {
+  color: brown;
+  margin-bottom: 10%;
+}
 .lenguajes {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  background: black;
+  justify-content: space-evenly;
+  background: #400000;
+  padding: 5% 0% 5% 0%;
+  margin: 2%;
+  border-radius: 5%;
 }
 .lenguajes .lenguaje {
   color: brown;
@@ -14,5 +24,15 @@
   width: 80px;
   height: 80px;
   border-radius: 10%;
-  filter: opacity(40%);
+  filter: opacity(80%);
+  animation: bl 4s linear 1;
+
+}
+@keyframes bl {
+  0% {
+    filter: blur(6px);
+  }
+  100% {
+    filter: brightness(100%);
+  }
 }
