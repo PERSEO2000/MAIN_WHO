@@ -3,9 +3,9 @@ import "./css/git.css"
 
 const Git = () => {
   return (
-    <div>
+    <div className="git">
       <div>
-        <img src="../MULTIMEDIA/png-transparent-github-social-media-computer-icons-logo-android-github-logo-computer-wallpaper-banner-thumbnail (1).png">
+        <img src="https://cdn.iconscout.com/icon/free/png-256/free-github-149-624845.png?f=avif&w=256"/>
       </div>
     </div>
   )
