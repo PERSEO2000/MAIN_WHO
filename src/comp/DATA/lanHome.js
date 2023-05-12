@@ -20,7 +20,7 @@ export const lanHome = [
 export const franeHome = [
   {
     id: 0,
-    img: "https://icon2.cleanpng.com/20180604/iqs/kisspng-react-javascript-angularjs-ionic-atom-5b154be64e7965.3537065815281223423214.jpg",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1024px-React-icon.svg.png?20220125121207",
     name: "React"
   },
   {
