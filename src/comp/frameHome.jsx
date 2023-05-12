@@ -10,8 +10,12 @@ const FrameHome = () => {
           franeHome.map((frame) => {
             return (
               <div>
-                <img src={frame.img}/>
-                <h6>{frame.name}</h6>
+                <div>
+                  <img src={frame.img}/>
+                </div>
+                <div>
+                  <h6>{frame.name}</h6>
+                </div>
               </div>
             )
           })
