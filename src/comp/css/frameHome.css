@@ -1,8 +1,7 @@
 .framehome {
   background: brown;
   color: white;
-  padding: 5%;
-  margin: 10% 2% 10% 2%;
+  padding: 2% 0% 2% 0%;
 }
 .framehome >div:nth-child(1) {
   display: flex;

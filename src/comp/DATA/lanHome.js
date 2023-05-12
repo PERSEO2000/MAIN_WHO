@@ -30,7 +30,7 @@ export const franeHome = [
   },
   {
     id: 2,
-    img: "https://cdn.iconscout.com/icon/free/png-256/free-django-11-1175036.png?f=avif&w=256",
+    img: "https://image.pngaaa.com/363/4169363-small.png",
     name: "Django"
   },
 ]
