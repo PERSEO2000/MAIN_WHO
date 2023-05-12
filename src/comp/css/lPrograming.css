@@ -1,8 +1,10 @@
 .lenguajes {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  background: black;
+  justify-content: space-evenly;
+  background: #400000;
+  margin: 2%;
+  border-radius: 5%;
 }
 .lenguajes .lenguaje {
   color: brown;

@@ -1,6 +1,5 @@
 .git {
   background: #400000;
-  color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,6 +22,6 @@
 .git >div:nth-child(2) {
   text-align: center;
   font-size: 7px;
-  color: coral;
+  color: brown;
 }
 
